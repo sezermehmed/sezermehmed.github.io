@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(223, 223, 223);
-    color: rgb(37, 37, 37);
+    background-color: rgb(37, 36, 41);
+    color: rgb(231, 231, 231);
     margin: 0;
     height: 100%;
     font-size: larger;
@@ -18,8 +18,8 @@ p {
 
 a {
     text-decoration: none;
-    color: #3b3b3a;
-    font-size: 20px;
+    color: #dededf;
+    font-size: larger;
 }
 
 a:hover {
@@ -32,9 +32,10 @@ a:hover {
 }
 
 #author-name {
-    font-size: 20px;
-    color: #3b3b3b;
+    font-size: 25px;
+    color: #dededf;
     display: inline-block;
+    margin-top: 6px;
 }
 
 .navbar-ul {
@@ -46,7 +47,7 @@ a:hover {
 
 .nav-list {
     list-style-type: none;
-    margin: 0 10px 0 15px;
+    margin: 0 10px 0 20px;
 }
 
 .alignable,
@@ -71,7 +72,11 @@ a:hover {
 .wrapper {
     min-height: 100%;
     font-family: "Seido";
+    margin-bottom: 5%;
 }
-.fasttype {
-    margin-left: 20px;
+.giphy-embed {
+    pointer-events: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
