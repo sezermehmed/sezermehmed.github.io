@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(223, 223, 223);
     color: rgb(37, 37, 37);
     margin: 0;
     height: 100%;
@@ -71,4 +71,7 @@ a:hover {
 .wrapper {
     min-height: 100%;
     font-family: "Seido";
+}
+.fasttype {
+    margin-left: 20px;
 }
